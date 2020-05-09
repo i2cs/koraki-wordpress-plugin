@@ -31,6 +31,12 @@ Yes, Koraki has a forever free plan. But if you need to make use of advanced fea
 
 == Screenshots ==
 
+1. Koraki Wordpress integration
+2. Customizations to UI widget
+3. Notifications view
+4. Main dashboard of Koraki
+5. Koraki in action
+
 == Changelog ==
 
 = 1.0 =
