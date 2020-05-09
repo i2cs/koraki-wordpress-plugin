@@ -121,7 +121,7 @@ class Koraki_Admin {
             <option value="false">No</option>
         </select>
         <br/>
-        <i>See <a href="https://app.koraki.io/applications/view/" . $id . "/integrations/wordpress?source=wpplugin" target="_blank">advanced settings</a></i>
+        <i>See <a href="https://app.koraki.io/applications/" . $id . "/integrations/wordpress?source=wpplugin" target="_blank">advanced settings</a></i>
         <?php
     }
     
@@ -169,7 +169,7 @@ class Koraki_Admin {
             <?php if(isset($settings['client_id'])){ ?>
                 <div class = "notice notice-notice is-dismissible"> 
                     <p>
-                        Check your application settings by logging in to <a href="https://app.koraki.io/applications/view/<?php echo $settings['id']; ?>/integrations/wordpress?source=wpplugin" target="_blank">Koraki dashboard</a>
+                        Check your application settings by logging in to <a href="https://app.koraki.io/applications/<?php echo $settings['id']; ?>/integrations/wordpress?source=wpplugin" target="_blank">Koraki dashboard</a>
                     </p>
                 </div>
                 
